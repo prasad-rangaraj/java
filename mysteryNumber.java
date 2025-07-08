@@ -4,7 +4,7 @@ public class mysteryNumber {
     public static void main (String[] args) {
         Scanner input = new Scanner(System.in);
         int a = input.nextInt();
-        int temp = a/2,i=0,rev=0,temp1=0,sum=0,tot=0;
+        int temp = a/2,rev=0,temp1=0,sum=0,tot=0;
         while(true){
             temp1=temp;
             while(temp1>0){
